@@ -1,0 +1,19 @@
+{
+    "comments": [
+        "email       : panigrahi.kiran@gmail.com",
+        "description : this is the configuration file to check for the",
+        "              duplicate rows. You need to provide the correct",
+        "              values for input, output, working, and archive",
+        "              folders. The input folder is the one from where",
+        "              the program will take the file(s) to check for",
+        "              duplicates."
+    ],
+    "folders": {
+        "input": "./in",
+        "output": "./out",
+        "working": "./working",
+        "archive": "./archive"
+    },
+    "chunkSize": 100,
+    "excludeFiles": [".DS_Store", "__MACOSX"]
+}
